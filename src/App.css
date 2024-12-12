@@ -1,7 +1,5 @@
 /* Custom Scrollbar Styles */
 
-
-
 .scrollbar-thin::-webkit-scrollbar {
   width: 6px;
 }
