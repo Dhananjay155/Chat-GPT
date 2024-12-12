@@ -38,15 +38,6 @@ function Sidebar({ recentChats, setRecentChats, setChatHistory, darkMode }) {
             />
           </svg>
         </button>
-        {!isCollapsed && (
-          <h2
-            className={`text-lg font-semibold ${
-              darkMode ? "text-yellow-300" : "text-gray-700"
-            }`}
-          >
-            Menu
-          </h2>
-        )}
       </div>
 
       {/* New Chat Button */}
@@ -56,7 +47,7 @@ function Sidebar({ recentChats, setRecentChats, setChatHistory, darkMode }) {
             ? "bg-yellow-500 text-gray-900 hover:bg-yellow-600"
             : "bg-blue-500 text-white hover:bg-blue-600"
         }`}
-        onClick={() => setChatHistory([])} // Clears the chat history
+        onClick={() => setChatHistory([])} 
       >
         {!isCollapsed && "+ New Chat"}
       </button>

@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// components/ChatContainer.js
 import ReactMarkdown from "react-markdown";
 
 function ChatContainer({ chatHistory, generatingAnswer, darkMode }) {

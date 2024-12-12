@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// components/InputForm.js
 
 function InputForm({ question, setQuestion, generateAnswer, generatingAnswer, darkMode }) {
   return (
