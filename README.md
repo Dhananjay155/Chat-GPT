@@ -26,8 +26,7 @@ ChatGPT is a smart, AI-powered chatbot that provides human-like conversations, a
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/chatgpt-project.git
-   cd chatgpt-project
+   https://github.com/Dhananjay155/Chat-GPT.git
 
 2. **Install dependencies: Using npm**:
     ```bash
