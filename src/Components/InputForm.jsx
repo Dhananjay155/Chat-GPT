@@ -29,7 +29,7 @@ function InputForm({ question, setQuestion, generateAnswer, generatingAnswer, da
               ? "opacity-50 cursor-not-allowed"
               : darkMode
               ? "bg-yellow-500 text-gray-900 hover:bg-yellow-600"
-              : "bg-blue-500 text-white hover:bg-blue-600"
+              : "bg-gray-900 text-white "
           }`}
           disabled={generatingAnswer}
         >

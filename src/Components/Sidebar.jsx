@@ -45,7 +45,7 @@ function Sidebar({ recentChats, setRecentChats, setChatHistory, darkMode }) {
         className={`w-full py-2 mb-4 rounded-md text-lg font-semibold transition ${
           darkMode
             ? "bg-yellow-500 text-gray-900 hover:bg-yellow-600"
-            : "bg-blue-500 text-white hover:bg-blue-600"
+            : "bg-gray-500  text-white"
         }`}
         onClick={() => setChatHistory([])} 
       >
