@@ -54,11 +54,11 @@ function App() {
 
     try {
       const response = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${
-          import.meta.env.VITE_API_GENERATIVE_LANGUAGE_CLIENT
-        }`,
+        `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${import.meta.env.VITE_API_GENERATIVE_LANGUAGE_CLIENT}`,
+
         { contents: [{ parts: [{ text: question }] }] }
       );
+      
 
       const aiResponse = response.data?.candidates?.[0]?.content?.parts?.[0]?.text || "No response available.";
       setChatHistory((prev) => [...prev, { type: "answer", content: aiResponse }]);
